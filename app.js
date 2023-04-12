@@ -7,7 +7,7 @@ var previousArrow = document.getElementById("previous");
 
 showSlides(index); 
 
-
+// Function for sliding the images
 function showSlides(x) {
 	if (x > slides.length-1) {
 		index = 0; 
